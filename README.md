@@ -84,8 +84,8 @@ left = 0, right = 4 → mid = 2 → arr[2] = 15 → 15 < 23 → move right
 left = 3, right = 4 → mid = 3 → arr[3] = 23 → target found 
 
 
-## ** Day 3 – Bubble Sort
-## ** Topics Covered:
+## ** Day 3 – Bubble Sort**
+## ** Topics Covered:**
 Bubble Sort on integers
 
 Bubble Sort on strings (lexicographical order)
@@ -94,21 +94,21 @@ Bubble Sort on 2D arrays (row-wise sorting)
 
 Case-insensitive string sorting
 
-## ** Time Complexity:
+## ** Time Complexity:**
 Worst Case: O(n²)
 
 Best Case: O(n) — when already sorted
 
 Average Case: O(n²)
 
-## ** When to Use:
+## ** When to Use:**
 When simplicity is more important than performance
 
 For small datasets
 
 Good for educational purposes to understand sorting logic
 
-## ** What I Learned:
+## ** What I Learned:**
 Repeatedly compare and swap adjacent elements
 
 Add a boolean flag (swapped) to stop early if no swaps
@@ -117,25 +117,25 @@ For strings, use .compareTo() or .compareToIgnoreCase() for sorting
 
 2D Bubble Sort = apply bubble sort individually on each row or flatten and sort
 
-## ** Sample Dry Run (Integers):
+## ** Sample Dry Run (Integers):**
 Input:
 arr = [5, 3, 8, 2]
 
-## ** Iteration 1:
+## ** Iteration 1:**
 5 > 3 → swap → [3, 5, 8, 2]
 
 5 < 8 → no swap
 
 8 > 2 → swap → [3, 5, 2, 8]
 
-## ** Iteration 2:
+## ** Iteration 2:**
 3 < 5 → no swap
 
 5 > 2 → swap → [3, 2, 5, 8]
 
 5 < 8 → no swap
 
-## ** Iteration 3:
+## ** Iteration 3:**
 3 > 2 → swap → [2, 3, 5, 8] 
 
 ## ** Use Cases Implemented:** 

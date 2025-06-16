@@ -148,9 +148,9 @@ Bubble Sort on 2D array (int[][])
 Case-insensitive String[] sorting (e.g., usernames)
 
 
- ## ** Day 4 - Selection Sort**
+ ## Day 4 - Selection Sort
  
-## ** Topics Covered:** 
+## Topics Covered:
 Selection Sort on integers
 
 Selection Sort on strings
@@ -159,20 +159,20 @@ Selection Sort on 2D arrays (row-wise)
 
 Case-insensitive selection sort (e.g., usernames)
 
-## ** Time Complexity:** 
+## Time Complexity:
 Case	Time Complexity
 Best Case	O(n²)
 Average	O(n²)
 Worst Case	O(n²)
 
-## ** When to Use:** 
+##  When to Use:
 Small data sets
 
 When memory writes are costly (selection sort makes fewer swaps than bubble sort)
 
 Simple sorting logic is acceptable
 
-## ** What I Learned:** 
+##  What I Learned: 
 Always track the index of the minimum element during the inner loop
 
 Use .compareTo() for string comparison and .compareToIgnoreCase() for case-insensitive sorting
@@ -181,12 +181,12 @@ Nested loop logic is key — dry running helps
 
 In 2D arrays, sort row-by-row for simplicity
 
-## ** Sample Dry Run (Integers):** 
+## Sample Dry Run (Integers):
 Input:
 
 
 arr = [64, 25, 12, 22, 11]
-## ** Iteration:** 
+## Iteration:
 
 1st Pass:
 → min = 4 (value 11)

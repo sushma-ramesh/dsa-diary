@@ -268,3 +268,97 @@ i = 4 → key = 2
 
 ## -Final Output: [2, 3, 5, 6, 8]
 
+# Day 6 – Merge Sort
+
+## Topics Covered:
+- Merge Sort on integers
+- Merge Sort on strings
+- Merge Sort on 2D arrays (row-wise)
+- Case-insensitive Merge Sort (e.g., usernames)
+
+##  Time Complexity:
+- Best Case: O(n log n)
+- Average Case: O(n log n)
+- Worst Case: O(n log n)
+
+##  When to Use:
+- Stable sort needed
+- Large datasets
+- Divide-and-conquer scenarios
+
+##  What I Learned:
+- Merge step is key – involves creating temporary arrays
+- Sorting is done while merging
+- Recursion helps split arrays until single elements
+
+##  Sample Dry Run:
+### Input:
+`arr = [6, 2, 9, 1]`
+
+### Merge Steps:
+- Divide: [6,2] and [9,1] → [6],[2] and [9],[1]
+- Merge: [2,6] and [1,9] → Final merge → [1,2,6,9]
+
+
+# Day 7 – Quick Sort
+
+##  Topics Covered:
+- Quick Sort on integers
+- Quick Sort on strings
+- Quick Sort on 2D arrays (row-wise)
+- Case-insensitive Quick Sort (e.g., usernames)
+
+##  Time Complexity:
+- Best Case: O(n log n)
+- Average Case: O(n log n)
+- Worst Case: O(n²)
+
+## When to Use:
+- Efficient in-place sorting
+- When recursion is manageable
+- Faster than Merge Sort for smaller arrays
+
+## What I Learned:
+- Pivot choice affects performance
+- Partition logic is crucial
+- Recursive divide-and-conquer is efficient
+
+##  Sample Dry Run:
+### Input:
+`arr = [5, 2, 8, 1]`, Pivot = 1
+- Partition Step → [1] [5,2,8]
+- Recursive steps → Sort [5,2,8]
+- Final → [1,2,5,8]
+
+
+# Day 8 – Stack Implementation
+
+##  Topics Covered:
+- Stack using arrays
+- Stack with strings
+- Stack operations: push, pop, peek
+- Real-life use case: username validation
+
+##  Stack Properties:
+- LIFO (Last-In, First-Out)
+- push(), pop(), peek(), isEmpty(), isFull()
+
+##  Time Complexity:
+- push(): O(1)
+- pop(): O(1)
+- peek(): O(1)
+
+##  When to Use:
+- Backtracking (undo)
+- Expression evaluation
+- Browser history
+
+##  What I Learned:
+- `top` pointer is key
+- Edge cases: overflow, underflow
+- Use of `++top`, `--top` in logic
+
+##  Sample Operation:
+- push(10) → [10]
+- push(20) → [10, 20]
+- pop() → 20 removed → [10]

@@ -362,3 +362,28 @@ i = 4 → key = 2
 - push(10) → [10]
 - push(20) → [10, 20]
 - pop() → 20 removed → [10]
+
+
+# Day 9 - Queue
+
+## Topics Covered:
+- Queue using arrays (Integer)
+- Queue using arrays (String)
+- Queue operations: enqueue, dequeue, peek
+- Real-life use case: Help Desk ticket system
+- Circular Queue implementation
+
+## Time Complexity:
+- Enqueue: O(1)
+- Dequeue: O(1)
+- Peek: O(1)
+
+## When to Use:
+- Order-based processing (FIFO)
+- Scheduling systems
+- Task queues
+
+## What I Learned:
+- Maintain `front`, `rear`, and `size`
+- Watch out for Overflow/Underflow
+- Use modulo `%` for circular queue

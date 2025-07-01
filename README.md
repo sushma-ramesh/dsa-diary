@@ -81,7 +81,7 @@ left = 0, right = 4 → mid = 2 → arr[2] = 15 → 15 < 23 → move right
 
 left = 3, right = 4 → mid = 3 → arr[3] = 23 → target found 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------
 ##  **Day 3 – Bubble Sort**
 ##  **Topics Covered:**
 -Bubble Sort on integers
